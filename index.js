@@ -15,7 +15,7 @@ const config = {
 	}
 };
 
-// Koble til databasen
+// Connect to the database
 sql.connect(config, (error) => {
 	if (error) console.error(error);
 	else console.log("Connected to the database.");
